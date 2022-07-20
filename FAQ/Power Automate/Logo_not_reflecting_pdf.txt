@@ -1,0 +1,12 @@
+concat('<!DOCTYPE html> 
+<html>
+<body>
+<hr>
+<img src="',variables('logo'),'" Width="115" height="30">
+</body>
+</html>')
+
+use: dataUri(outputs('Get_file_content')?['body'])-->for image conversion
+
+
+Youtube link: https://www.youtube.com/watch?v=2rfAQe1kK8M&t=828s
